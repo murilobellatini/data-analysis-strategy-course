@@ -27,20 +27,19 @@ Ferramentas: Python, pandas, NumPy, Seaborn, Matplotlib.
 - Colinha de pandas grátis (PDF, em português e inglês): https://muriloapps.dpdns.org/downloads/
 - Os vídeos do curso são separados. Uma versão em inglês vem depois.
 
-### Trabalhe com o Claude Code
+### Trabalhe com um assistente de IA
 
-Aprenda com um assistente de IA que conhece este curso.
+Aprenda com qualquer IA que conheça este curso: Claude Code, Codex, Gemini CLI ou um chat de IA.
 
-1. Instale o Claude Code (macOS, Linux, WSL): `curl -fsSL https://claude.ai/install.sh | bash`. Outros sistemas: https://code.claude.com/docs/en/quickstart
+1. Escolha uma ferramenta de IA e instale. (Dica, Claude Code no macOS, Linux, WSL: `curl -fsSL https://claude.ai/install.sh | bash`.)
 2. Baixe o curso: `git clone https://github.com/murilobellatini/data-analysis-strategy-course.git`
 3. Entre na pasta: `cd data-analysis-strategy-course`
-4. Inicie: `claude`
-5. Adicione as skills, dentro do Claude Code:
-   - `/plugin marketplace add murilobellatini/agent-skills`
-   - `/plugin install data-analysis-skills@murilo-agent-skills`
+4. Inicie a ferramenta nesta pasta (por exemplo `claude`, `codex` ou `gemini`). Em um chat, cole o `AGENTS.md` primeiro.
+5. Adicione as skills. São arquivos simples, qualquer agente usa: https://github.com/murilobellatini/agent-skills
+   - Claude Code: `/plugin marketplace add murilobellatini/agent-skills`, depois `/plugin install data-analysis-skills@murilo-agent-skills`
 6. Teste um primeiro prompt: `use pandas-explore nos dados do Titanic`
 
-O arquivo `CLAUDE.md` desta pasta explica ao Claude como o curso funciona.
+O arquivo `AGENTS.md` desta pasta explica à IA como o curso funciona.
 
 ### Dados
 
