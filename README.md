@@ -27,6 +27,21 @@ Tools: Python, pandas, NumPy, Seaborn, Matplotlib.
 - Free pandas cheat sheet (PDF, English and Portuguese): https://muriloapps.dpdns.org/downloads/
 - The course videos are separate and spoken in Portuguese. An English version comes later.
 
+### Work with Claude Code
+
+Learn with an AI helper that knows this course.
+
+1. Install Claude Code (macOS, Linux, WSL): `curl -fsSL https://claude.ai/install.sh | bash`. Other systems: https://code.claude.com/docs/en/quickstart
+2. Get the course: `git clone https://github.com/murilobellatini/data-analysis-strategy-course.git`
+3. Go into the folder: `cd data-analysis-strategy-course`
+4. Start it: `claude`
+5. Add the skills, inside Claude Code:
+   - `/plugin marketplace add murilobellatini/agent-skills`
+   - `/plugin install data-analysis-skills@murilo-agent-skills`
+6. Try a first prompt: `use pandas-explore on the Titanic data`
+
+The `CLAUDE.md` file in this folder tells Claude how the course works.
+
 ### Data
 
 The notebooks download Titanic (`train.csv`, `test.csv`) from `github.com/murilobellatini/datasets`.
