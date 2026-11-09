@@ -6,6 +6,9 @@ Solved notebooks for my course *Data Analysis Strategies*.
 One case, the Titanic: who survived, and why.
 From loading the data to correlations, one hypothesis at a time.
 
+Made in Brazil, when many people were switching careers into data and needed one clear path. Recorded before AI assistants were common, the strategy still holds: start from a guess, check it with the data, and check what any tool tells you.
+More: https://muriloapps.dpdns.org/course/
+
 Tools: Python, pandas, NumPy, Seaborn, Matplotlib.
 
 | # | Lesson | Open in Colab | Video (Portuguese) |

@@ -6,6 +6,9 @@ Os notebooks resolvidos do meu curso *Estratégias de Análise de Dados*.
 Um caso só, o Titanic: quem sobreviveu, e por quê.
 Do carregamento dos dados até a correlação, uma hipótese por vez.
 
+Feito no Brasil, quando muita gente mudava de carreira para dados e precisava de um caminho claro. Gravado antes de os assistentes de IA serem comuns, a estratégia continua valendo: partir de um palpite, conferir com os dados e conferir o que qualquer ferramenta responde.
+Mais: https://muriloapps.dpdns.org/course/
+
 Ferramentas: Python, pandas, NumPy, Seaborn, Matplotlib.
 
 | # | Aula | Abrir no Colab | Vídeo |
